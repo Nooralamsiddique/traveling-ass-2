@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    padding-bottom: 50px;  
+}
+
+/* -------------------------- */
+
+
+
+nav .box {
+    display: flex;
+}
+
+nav .logo {
+    width: 15%;
+    display: flex;    
+    justify-content: flex-end;
+    align-items: center;  
+}
+
+nav .title {
+    width: 25%;
+    font-size: 2.25rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+nav .title h3 {
+    margin-left: 0px;
+}
+
+.color {
+    color: #FF5400;
+    margin-left: 3px;
+
+}
+
+nav .nav-item {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .nav-item ul {
+    display: flex;
+    column-gap: 44px;
+}
+
+span {
+    color: #FF5400;
+}
+
+ul,
+li {
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* --------------------banner------------------------------ */
+
+.banner-img {
+    height: 500px;
+    width: 1200px;
+    background-image: url(../Images/saiket1.png);
+    background-repeat: no-repeat;
+}
+
+.banner-img h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.banner-img p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 40px;
+}
+
+.bannerbatn {
+    padding-top: 48px;
+    padding-left: 35px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+input {
+    height: 50px;
+    width: 175px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+
+/* ------------------------tour section-------------------------------- */
+
+
+.our-tour {
+    height: 500px;
+    width: 1200px;
+    /* background-color: #FF5400; */
+}
+
+.popular {
+    display: flex;
+    gap: 10px;
+
+}
+
+.our-tour .left {
+    width: 50%;
+    height: 500px;
+
+}
+
+.our-tour .left h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.our-tour .left p {
+    font-size: 1rem;
+}
+
+.our-tour .left ul {
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+div {
+    margin-top: 44px;
+}
+
+a {
+     padding: 22px 35px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FFF;
+}
+.our-tour .right {
+    width: 50%;
+}
+.tour-img {
+    border-radius: 18px;
+    padding-left: 100px;
+    width: 450px;
+    height: 420px;
+}
+
+/* ---------------------------------------------------------- */
+
+.destination-titel {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.detls {
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+/* ----------------------------------- */
+
+.top img {
+    width: 100%;
+}
+
+.top {
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    border-radius: 16px;    
+}
+
+.mid {
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    border-radius: 16px;
+}
+
+.down {
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    border-radius: 16px;
+}
+
+/* ------------------------------------------------- */
+.hotel-sirvs {
+    height: 300px;
+    width: 1200px;
+    justify-content: space-between;
+    gap: 10px;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.sirvice-title {
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.hotel-sirvs .hotel {
+    width: 600px;
+    height: 290px;
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    padding: 30px 32px 32px;
+}
+
+.hotel-sirvs .service {
+    width: 600px;
+    height: 290px;
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    padding: 30px 32px 32px;
+}
+
+.gsrvs {
+    height: 290px;
+    width: 600px;
+    background-color: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 16px;
+    margin-bottom: 60px;
+}
+
+.guarantee-sirvs {
+    margin-top: 25px;
+}
+
+/* ------------------------------------------------------------ */
+.hotel-1 {
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/saiket2.png);
+    border-radius: 16px;
+    position: relative;
+}
+
+.hotel-ditls {
+    width: 600px;
+    height: 290px;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.hotel-bat {
+    padding: 13px 35px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.hotel-2 {
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/saiket2.png);
+    border-radius: 16px;
+    position: relative;
+}
+
+.hotel-3 {
+    width: 1170px;
+    height: 500px;
+    background-image: url(../Images/saiket2.png);
+    border-radius: 16px;
+    position: relative;
+}
+
+.see-all {
+    height: 50px;
+    width: 210px;
+    /* padding: 13px 35px; */
+    background-color: #FF5400;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+}
+
+/* --------------------------------------------------------- */
+
+.perfect-place {
+    height: 500px;
+    width: 1200px;
+
+}
+
+.simpl-lr {
+    display: flex;
+    gap: 10px;
+}
+
+.simpl-l {
+    width: 50%;
+    border-radius: 16px;
+
+}
+
+.simpl-l h2 {
+    font-size: 50px;
+    font-weight: 800px;
+    color: #131318;
+}
+
+.simpl-r {
+    width: 50%;
+    border-radius: 16px;
+
+}
+
+/* ---------------------------------------------- */
+.subscribe {
+    height: 500px;
+    width: 1200px;
+
+    margin-top: 100px;
+}
+
+.travel-news {
+    display: flex;
+    gap: 10px;
+
+}
+
+.travel {
+    width: 50%;
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.news {
+    width: 50%;
+    height: 500px;
+    border-radius: 16px;
+    /* width: 550px; */
+    /* background-image: url(../Images/saiket3.png); */
+}
+
+.news img {
+    width: 550px;
+}
+
+.travel-hd {
+    color: #131318;
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 40px;
+}
+
+.hd-ditls {
+    padding-left: 40px;
+    margin: 5px;
+}
+
+.contacts {
+    padding: 40px;
+}
+
+.sub-name {
+    padding: 10px 120px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+
+.sub-btn {
+    padding: 15px 160px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #FFF;
+}
+
+/* ------------------------------------------- */
+
+
+.foter {
+    /* display: flex; */
+    height: 510px;
+    width: 1200px;
+    background-color: rgba(19, 19, 24, 0.05);
+    position: relative;
+}
+
+.fot-logo {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    margin-top: 110px;
+    margin-left: 480px;
+}
+
+.fot-tital {
+    font-size: 30px;
+    width: 100px;
+    height: 60px;
+    padding-top: 102px;
+}
+
+.fot-ditls {
+    padding-top: 15px;
+    text-align: center;
+    color: #5A5A5D;    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.soc-png{
+    padding-left: 550px;
+    padding-top: 20px;
+}
+.fot-end{
+    margin-top: 120px;
+    margin-left: 535px;
+}
